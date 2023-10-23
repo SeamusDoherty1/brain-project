@@ -18,7 +18,7 @@ public class brainProject
     boolean proceed = true;
     String input;
     // start of adventure. You can change this if you like
-    console.setImage("");
+    //console.setImage("");
 
     // ask the user to input the brain part
     System.out.println("this is the brain. it helps us function and is helpful with our psychological needs. \n please type in the number corresponding with the part of the brain.");
@@ -115,7 +115,7 @@ public class brainProject
     String input;
     boolean proceed = true;
     // change image
-    console.setImage("");
+    //console.setImage("");
     // ADD CODE HERE
 
     // describe the area/situation to the user. 
@@ -218,7 +218,7 @@ public class brainProject
     boolean proceed = true;
     // change image
     // ADD CODE HERE
-    console.setImage("");
+    //console.setImage("");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
@@ -320,7 +320,7 @@ public class brainProject
     boolean proceed = true;
     // change image
     // ADD CODE HERE
-    console.setImage("");
+    //console.setImage("");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
@@ -425,7 +425,7 @@ public class brainProject
     boolean proceed = true;
     // change image
     // ADD CODE HERE
-    console.setImage("");
+    //console.setImage("");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
@@ -527,7 +527,7 @@ public class brainProject
     String input;
     // change image
     // ADD CODE HERE
-    console.setImage("");
+    //console.setImage("");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
@@ -627,15 +627,103 @@ public class brainProject
   }
   private void corpus_Callosum()
   {
+    boolean proceed = true;
+    String input;
     // change image
     // ADD CODE HERE
-    console.setImage("");
+    //console.setImage("");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
     // ADD CODE HERE
-    System.out.println("you have collected 10 gold pieces and hoped you had gotten more.\n but maybe it was the friends we did not make on the way that was the not real treasure");
-    gameEnd();
+    System.out.println("The Corpus Callosum\n");
+    System.out.println("A group of nerve fibers connecting the two hemispheres of the brain that serves to allow communication between them.");
+    System.out.println("please type in the number corresponding with the part of the brain.");
+    System.out.println("1. Parietal Lobe");
+    System.out.println("2. Frontal Lobe");
+    System.out.println("3. Occipital Lobe");
+    System.out.println("4. Temporal Lobe");
+    System.out.println("5. Medulla");
+    System.out.println("6. Corpus Callosum");
+    System.out.println("7. Cerebellum");
+    System.out.println("8. Limbic System");
+    System.out.println("9. Thalamus");
+    System.out.println("10. Hypothalamus");
+    System.out.println("11. Amygdala");
+    System.out.println("12. Hippocampus");
+    System.out.println("13. Reticular Formation/Reticular Activating System");
+    System.out.println("14. Wenicke's Area");
+    System.out.println("15. Broca's Area\n");
+    input = inScanner.nextLine();
+    // Take action or go to another zone based on their choice
+    // ADD CODE HERE
+    while(proceed != false){
+      if(input.equals("1") == true){ 
+        parietal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("2") == true){
+        frontal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("3") == true){
+        occipital_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("4") == true){
+        temporal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("5") == true){
+        medulla();
+        proceed = false;
+      }
+      else if(input.equals("6") == true){
+        corpus_Callosum();
+        proceed = false;
+      }
+      else if(input.equals("7") == true){
+        cerebellum();
+        proceed = false;
+      }
+      else if(input.equals("8") == true){
+        limbic_System();
+        proceed = false;
+      }
+      
+      else if(input.equals("9") == true){
+        thalamus();
+        proceed = false;
+      }
+      else if(input.equals("10") == true){
+        hypothalamus();
+        proceed = false;
+      }
+      else if(input.equals("11") == true){
+        amygdala();
+        proceed = false;
+      }
+      else if(input.equals("12") == true){
+        hippocampus();
+        proceed = false;
+      }
+      else if(input.equals("13") == true){
+        reticular_Formation();
+        proceed = false;
+      }
+      else if(input.equals("14") == true){
+        wernickes_Area();
+        proceed = false;
+      }
+      else if(input.equals("15") == true){
+        brocas_Area();
+        proceed = false;
+      }
+      else{
+        System.out.println("sorry that was not one of the options \n try again\n");
+        input = inScanner.nextLine();
+      }
+    }
 
     // Take action or go to another zone based on their choice
     // ADD CODE HERE
@@ -643,15 +731,103 @@ public class brainProject
   }
   private void cerebellum()
   {
+    boolean proceed = true;
+    String input;
     // change image
     // ADD CODE HERE
-    console.setImage("");
+    //console.setImage("");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
     // ADD CODE HERE
-    System.out.println("you have collected 10 gold pieces and hoped you had gotten more.\n but maybe it was the friends we did not make on the way that was the not real treasure");
-    gameEnd();
+    System.out.println("The Cerebellum\n");
+    System.out.println("A part of the brain adjacent to the spinal cord that regulates balance and muscle control as a person performs movements.");
+    System.out.println("please type in the number corresponding with the part of the brain.");
+    System.out.println("1. Parietal Lobe");
+    System.out.println("2. Frontal Lobe");
+    System.out.println("3. Occipital Lobe");
+    System.out.println("4. Temporal Lobe");
+    System.out.println("5. Medulla");
+    System.out.println("6. Corpus Callosum");
+    System.out.println("7. Cerebellum");
+    System.out.println("8. Limbic System");
+    System.out.println("9. Thalamus");
+    System.out.println("10. Hypothalamus");
+    System.out.println("11. Amygdala");
+    System.out.println("12. Hippocampus");
+    System.out.println("13. Reticular Formation/Reticular Activating System");
+    System.out.println("14. Wenicke's Area");
+    System.out.println("15. Broca's Area\n");
+    input = inScanner.nextLine();
+    // Take action or go to another zone based on their choice
+    // ADD CODE HERE
+    while(proceed != false){
+      if(input.equals("1") == true){ 
+        parietal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("2") == true){
+        frontal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("3") == true){
+        occipital_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("4") == true){
+        temporal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("5") == true){
+        medulla();
+        proceed = false;
+      }
+      else if(input.equals("6") == true){
+        corpus_Callosum();
+        proceed = false;
+      }
+      else if(input.equals("7") == true){
+        cerebellum();
+        proceed = false;
+      }
+      else if(input.equals("8") == true){
+        limbic_System();
+        proceed = false;
+      }
+      
+      else if(input.equals("9") == true){
+        thalamus();
+        proceed = false;
+      }
+      else if(input.equals("10") == true){
+        hypothalamus();
+        proceed = false;
+      }
+      else if(input.equals("11") == true){
+        amygdala();
+        proceed = false;
+      }
+      else if(input.equals("12") == true){
+        hippocampus();
+        proceed = false;
+      }
+      else if(input.equals("13") == true){
+        reticular_Formation();
+        proceed = false;
+      }
+      else if(input.equals("14") == true){
+        wernickes_Area();
+        proceed = false;
+      }
+      else if(input.equals("15") == true){
+        brocas_Area();
+        proceed = false;
+      }
+      else{
+        System.out.println("sorry that was not one of the options \n try again\n");
+        input = inScanner.nextLine();
+      }
+    }
 
     // Take action or go to another zone based on their choice
     // ADD CODE HERE
@@ -659,15 +835,103 @@ public class brainProject
   }
   private void limbic_System()
   {
+    boolean proceed = true;
+    String input;
     // change image
     // ADD CODE HERE
-    console.setImage("");
+    //console.setImage("");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
     // ADD CODE HERE
-    System.out.println("you have collected 10 gold pieces and hoped you had gotten more.\n but maybe it was the friends we did not make on the way that was the not real treasure");
-    gameEnd();
+    System.out.println("The Limbic System\n");
+    System.out.println("A group of components in the brain dedicated to behavior and emotional responses. Included in this group of components are the cingulate gyrus, basal ganglia, thalamus, hypothalamus, amygdala, and hippocampus.");
+    System.out.println("please type in the number corresponding with the part of the brain.");
+    System.out.println("1. Parietal Lobe");
+    System.out.println("2. Frontal Lobe");
+    System.out.println("3. Occipital Lobe");
+    System.out.println("4. Temporal Lobe");
+    System.out.println("5. Medulla");
+    System.out.println("6. Corpus Callosum");
+    System.out.println("7. Cerebellum");
+    System.out.println("8. Limbic System");
+    System.out.println("9. Thalamus");
+    System.out.println("10. Hypothalamus");
+    System.out.println("11. Amygdala");
+    System.out.println("12. Hippocampus");
+    System.out.println("13. Reticular Formation/Reticular Activating System");
+    System.out.println("14. Wenicke's Area");
+    System.out.println("15. Broca's Area\n");
+    input = inScanner.nextLine();
+    // Take action or go to another zone based on their choice
+    // ADD CODE HERE
+    while(proceed != false){
+      if(input.equals("1") == true){ 
+        parietal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("2") == true){
+        frontal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("3") == true){
+        occipital_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("4") == true){
+        temporal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("5") == true){
+        medulla();
+        proceed = false;
+      }
+      else if(input.equals("6") == true){
+        corpus_Callosum();
+        proceed = false;
+      }
+      else if(input.equals("7") == true){
+        cerebellum();
+        proceed = false;
+      }
+      else if(input.equals("8") == true){
+        limbic_System();
+        proceed = false;
+      }
+      
+      else if(input.equals("9") == true){
+        thalamus();
+        proceed = false;
+      }
+      else if(input.equals("10") == true){
+        hypothalamus();
+        proceed = false;
+      }
+      else if(input.equals("11") == true){
+        amygdala();
+        proceed = false;
+      }
+      else if(input.equals("12") == true){
+        hippocampus();
+        proceed = false;
+      }
+      else if(input.equals("13") == true){
+        reticular_Formation();
+        proceed = false;
+      }
+      else if(input.equals("14") == true){
+        wernickes_Area();
+        proceed = false;
+      }
+      else if(input.equals("15") == true){
+        brocas_Area();
+        proceed = false;
+      }
+      else{
+        System.out.println("sorry that was not one of the options \n try again\n");
+        input = inScanner.nextLine();
+      }
+    }
 
     // Take action or go to another zone based on their choice
     // ADD CODE HERE
@@ -675,9 +939,11 @@ public class brainProject
   }
   private void thalamus()
   {
+    boolean proceed = true;
+    String input;
     // change image
     // ADD CODE HERE
-    console.setImage("");
+    //console.setImage("");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
@@ -691,9 +957,11 @@ public class brainProject
   }
   private void hypothalamus()
   {
+    boolean proceed = true;
+    String input;
     // change image
     // ADD CODE HERE
-    console.setImage("");
+    //console.setImage("");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
@@ -707,9 +975,11 @@ public class brainProject
   }
   private void amygdala()
   {
+    boolean proceed = true;
+    String input;
     // change image
     // ADD CODE HERE
-    console.setImage("");
+    //console.setImage("");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
@@ -723,9 +993,11 @@ public class brainProject
   }
   private void hippocampus()
   {
+    boolean proceed = true;
+    String input;
     // change image
     // ADD CODE HERE
-    console.setImage("");
+    //console.setImage("");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
@@ -739,9 +1011,11 @@ public class brainProject
   }
   private void reticular_Formation()
   {
+    boolean proceed = true;
+    String input;
     // change image
     // ADD CODE HERE
-    console.setImage("");
+    //console.setImage("");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
@@ -755,9 +1029,11 @@ public class brainProject
   }
   private void wernickes_Area()
   {
+    boolean proceed = true;
+    String input;
     // change image
     // ADD CODE HERE
-    console.setImage("");
+    //console.setImage("");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
@@ -777,7 +1053,7 @@ public class brainProject
     int dragonHealth = 4;
     // change image
     // ADD CODE HERE
-    console.setImage("");
+    //console.setImage("");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
@@ -806,7 +1082,7 @@ public class brainProject
   private void gameEnd()
   {
     // ADD CODE HERE
-    console.setImage("");
+    //console.setImage("");
     System.out.println("Thank you for playing");
     inScanner.close();
   }
