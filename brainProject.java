@@ -948,8 +948,94 @@ public class brainProject
     // describe the area/situation to the user. 
     // Give them options for choices.
     // ADD CODE HERE
-    System.out.println("you have collected 10 gold pieces and hoped you had gotten more.\n but maybe it was the friends we did not make on the way that was the not real treasure");
-    gameEnd();
+    System.out.println("The Thalamus\n");
+    System.out.println("A spherical structure in the middle of the brain which communicates motor movement with the body.");
+    System.out.println("please type in the number corresponding with the part of the brain.");
+    System.out.println("1. Parietal Lobe");
+    System.out.println("2. Frontal Lobe");
+    System.out.println("3. Occipital Lobe");
+    System.out.println("4. Temporal Lobe");
+    System.out.println("5. Medulla");
+    System.out.println("6. Corpus Callosum");
+    System.out.println("7. Cerebellum");
+    System.out.println("8. Limbic System");
+    System.out.println("9. Thalamus");
+    System.out.println("10. Hypothalamus");
+    System.out.println("11. Amygdala");
+    System.out.println("12. Hippocampus");
+    System.out.println("13. Reticular Formation/Reticular Activating System");
+    System.out.println("14. Wenicke's Area");
+    System.out.println("15. Broca's Area\n");
+    input = inScanner.nextLine();
+    // Take action or go to another zone based on their choice
+    // ADD CODE HERE
+    while(proceed != false){
+      if(input.equals("1") == true){ 
+        parietal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("2") == true){
+        frontal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("3") == true){
+        occipital_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("4") == true){
+        temporal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("5") == true){
+        medulla();
+        proceed = false;
+      }
+      else if(input.equals("6") == true){
+        corpus_Callosum();
+        proceed = false;
+      }
+      else if(input.equals("7") == true){
+        cerebellum();
+        proceed = false;
+      }
+      else if(input.equals("8") == true){
+        limbic_System();
+        proceed = false;
+      }
+      
+      else if(input.equals("9") == true){
+        thalamus();
+        proceed = false;
+      }
+      else if(input.equals("10") == true){
+        hypothalamus();
+        proceed = false;
+      }
+      else if(input.equals("11") == true){
+        amygdala();
+        proceed = false;
+      }
+      else if(input.equals("12") == true){
+        hippocampus();
+        proceed = false;
+      }
+      else if(input.equals("13") == true){
+        reticular_Formation();
+        proceed = false;
+      }
+      else if(input.equals("14") == true){
+        wernickes_Area();
+        proceed = false;
+      }
+      else if(input.equals("15") == true){
+        brocas_Area();
+        proceed = false;
+      }
+      else{
+        System.out.println("sorry that was not one of the options \n try again\n");
+        input = inScanner.nextLine();
+      }
+    }
 
     // Take action or go to another zone based on their choice
     // ADD CODE HERE
@@ -966,8 +1052,94 @@ public class brainProject
     // describe the area/situation to the user. 
     // Give them options for choices.
     // ADD CODE HERE
-    System.out.println("you have collected 10 gold pieces and hoped you had gotten more.\n but maybe it was the friends we did not make on the way that was the not real treasure");
-    gameEnd();
+    System.out.println("The Hypothalamus\n");
+    System.out.println("A part that manages the body temp, hunger, mood, blood pressure, and sleep.");
+    System.out.println("please type in the number corresponding with the part of the brain.");
+    System.out.println("1. Parietal Lobe");
+    System.out.println("2. Frontal Lobe");
+    System.out.println("3. Occipital Lobe");
+    System.out.println("4. Temporal Lobe");
+    System.out.println("5. Medulla");
+    System.out.println("6. Corpus Callosum");
+    System.out.println("7. Cerebellum");
+    System.out.println("8. Limbic System");
+    System.out.println("9. Thalamus");
+    System.out.println("10. Hypothalamus");
+    System.out.println("11. Amygdala");
+    System.out.println("12. Hippocampus");
+    System.out.println("13. Reticular Formation/Reticular Activating System");
+    System.out.println("14. Wenicke's Area");
+    System.out.println("15. Broca's Area\n");
+    input = inScanner.nextLine();
+    // Take action or go to another zone based on their choice
+    // ADD CODE HERE
+    while(proceed != false){
+      if(input.equals("1") == true){ 
+        parietal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("2") == true){
+        frontal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("3") == true){
+        occipital_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("4") == true){
+        temporal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("5") == true){
+        medulla();
+        proceed = false;
+      }
+      else if(input.equals("6") == true){
+        corpus_Callosum();
+        proceed = false;
+      }
+      else if(input.equals("7") == true){
+        cerebellum();
+        proceed = false;
+      }
+      else if(input.equals("8") == true){
+        limbic_System();
+        proceed = false;
+      }
+      
+      else if(input.equals("9") == true){
+        thalamus();
+        proceed = false;
+      }
+      else if(input.equals("10") == true){
+        hypothalamus();
+        proceed = false;
+      }
+      else if(input.equals("11") == true){
+        amygdala();
+        proceed = false;
+      }
+      else if(input.equals("12") == true){
+        hippocampus();
+        proceed = false;
+      }
+      else if(input.equals("13") == true){
+        reticular_Formation();
+        proceed = false;
+      }
+      else if(input.equals("14") == true){
+        wernickes_Area();
+        proceed = false;
+      }
+      else if(input.equals("15") == true){
+        brocas_Area();
+        proceed = false;
+      }
+      else{
+        System.out.println("sorry that was not one of the options \n try again\n");
+        input = inScanner.nextLine();
+      }
+    }
 
     // Take action or go to another zone based on their choice
     // ADD CODE HERE
@@ -984,8 +1156,94 @@ public class brainProject
     // describe the area/situation to the user. 
     // Give them options for choices.
     // ADD CODE HERE
-    System.out.println("you have collected 10 gold pieces and hoped you had gotten more.\n but maybe it was the friends we did not make on the way that was the not real treasure");
-    gameEnd();
+    System.out.println("The Amygdala\n");
+    System.out.println("This part helps with regulating autonomic and endocrine functions, decision-making and adaptations of instinctive and motivational behaviors.");
+    System.out.println("please type in the number corresponding with the part of the brain.");
+    System.out.println("1. Parietal Lobe");
+    System.out.println("2. Frontal Lobe");
+    System.out.println("3. Occipital Lobe");
+    System.out.println("4. Temporal Lobe");
+    System.out.println("5. Medulla");
+    System.out.println("6. Corpus Callosum");
+    System.out.println("7. Cerebellum");
+    System.out.println("8. Limbic System");
+    System.out.println("9. Thalamus");
+    System.out.println("10. Hypothalamus");
+    System.out.println("11. Amygdala");
+    System.out.println("12. Hippocampus");
+    System.out.println("13. Reticular Formation/Reticular Activating System");
+    System.out.println("14. Wenicke's Area");
+    System.out.println("15. Broca's Area\n");
+    input = inScanner.nextLine();
+    // Take action or go to another zone based on their choice
+    // ADD CODE HERE
+    while(proceed != false){
+      if(input.equals("1") == true){ 
+        parietal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("2") == true){
+        frontal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("3") == true){
+        occipital_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("4") == true){
+        temporal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("5") == true){
+        medulla();
+        proceed = false;
+      }
+      else if(input.equals("6") == true){
+        corpus_Callosum();
+        proceed = false;
+      }
+      else if(input.equals("7") == true){
+        cerebellum();
+        proceed = false;
+      }
+      else if(input.equals("8") == true){
+        limbic_System();
+        proceed = false;
+      }
+      
+      else if(input.equals("9") == true){
+        thalamus();
+        proceed = false;
+      }
+      else if(input.equals("10") == true){
+        hypothalamus();
+        proceed = false;
+      }
+      else if(input.equals("11") == true){
+        amygdala();
+        proceed = false;
+      }
+      else if(input.equals("12") == true){
+        hippocampus();
+        proceed = false;
+      }
+      else if(input.equals("13") == true){
+        reticular_Formation();
+        proceed = false;
+      }
+      else if(input.equals("14") == true){
+        wernickes_Area();
+        proceed = false;
+      }
+      else if(input.equals("15") == true){
+        brocas_Area();
+        proceed = false;
+      }
+      else{
+        System.out.println("sorry that was not one of the options \n try again\n");
+        input = inScanner.nextLine();
+      }
+    }
 
     // Take action or go to another zone based on their choice
     // ADD CODE HERE
@@ -1002,8 +1260,94 @@ public class brainProject
     // describe the area/situation to the user. 
     // Give them options for choices.
     // ADD CODE HERE
-    System.out.println("you have collected 10 gold pieces and hoped you had gotten more.\n but maybe it was the friends we did not make on the way that was the not real treasure");
-    gameEnd();
+    System.out.println("The Hippocampus\n");
+    System.out.println("This part of the brain is involved with long-term memory formation and memory retrieval. It also spatial memory.");
+    System.out.println("please type in the number corresponding with the part of the brain.");
+    System.out.println("1. Parietal Lobe");
+    System.out.println("2. Frontal Lobe");
+    System.out.println("3. Occipital Lobe");
+    System.out.println("4. Temporal Lobe");
+    System.out.println("5. Medulla");
+    System.out.println("6. Corpus Callosum");
+    System.out.println("7. Cerebellum");
+    System.out.println("8. Limbic System");
+    System.out.println("9. Thalamus");
+    System.out.println("10. Hypothalamus");
+    System.out.println("11. Amygdala");
+    System.out.println("12. Hippocampus");
+    System.out.println("13. Reticular Formation/Reticular Activating System");
+    System.out.println("14. Wenicke's Area");
+    System.out.println("15. Broca's Area\n");
+    input = inScanner.nextLine();
+    // Take action or go to another zone based on their choice
+    // ADD CODE HERE
+    while(proceed != false){
+      if(input.equals("1") == true){ 
+        parietal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("2") == true){
+        frontal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("3") == true){
+        occipital_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("4") == true){
+        temporal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("5") == true){
+        medulla();
+        proceed = false;
+      }
+      else if(input.equals("6") == true){
+        corpus_Callosum();
+        proceed = false;
+      }
+      else if(input.equals("7") == true){
+        cerebellum();
+        proceed = false;
+      }
+      else if(input.equals("8") == true){
+        limbic_System();
+        proceed = false;
+      }
+      
+      else if(input.equals("9") == true){
+        thalamus();
+        proceed = false;
+      }
+      else if(input.equals("10") == true){
+        hypothalamus();
+        proceed = false;
+      }
+      else if(input.equals("11") == true){
+        amygdala();
+        proceed = false;
+      }
+      else if(input.equals("12") == true){
+        hippocampus();
+        proceed = false;
+      }
+      else if(input.equals("13") == true){
+        reticular_Formation();
+        proceed = false;
+      }
+      else if(input.equals("14") == true){
+        wernickes_Area();
+        proceed = false;
+      }
+      else if(input.equals("15") == true){
+        brocas_Area();
+        proceed = false;
+      }
+      else{
+        System.out.println("sorry that was not one of the options \n try again\n");
+        input = inScanner.nextLine();
+      }
+    }
 
     // Take action or go to another zone based on their choice
     // ADD CODE HERE
@@ -1020,8 +1364,94 @@ public class brainProject
     // describe the area/situation to the user. 
     // Give them options for choices.
     // ADD CODE HERE
-    System.out.println("you have collected 10 gold pieces and hoped you had gotten more.\n but maybe it was the friends we did not make on the way that was the not real treasure");
-    gameEnd();
+    System.out.println("The Reticular Formation / Reticular Activating System\n");
+    System.out.println("This part is a brainstem that subserves autonomic, motor, sensory, behavioral, cognitive, and mood-related functions.");
+    System.out.println("please type in the number corresponding with the part of the brain.");
+    System.out.println("1. Parietal Lobe");
+    System.out.println("2. Frontal Lobe");
+    System.out.println("3. Occipital Lobe");
+    System.out.println("4. Temporal Lobe");
+    System.out.println("5. Medulla");
+    System.out.println("6. Corpus Callosum");
+    System.out.println("7. Cerebellum");
+    System.out.println("8. Limbic System");
+    System.out.println("9. Thalamus");
+    System.out.println("10. Hypothalamus");
+    System.out.println("11. Amygdala");
+    System.out.println("12. Hippocampus");
+    System.out.println("13. Reticular Formation/Reticular Activating System");
+    System.out.println("14. Wenicke's Area");
+    System.out.println("15. Broca's Area\n");
+    input = inScanner.nextLine();
+    // Take action or go to another zone based on their choice
+    // ADD CODE HERE
+    while(proceed != false){
+      if(input.equals("1") == true){ 
+        parietal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("2") == true){
+        frontal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("3") == true){
+        occipital_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("4") == true){
+        temporal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("5") == true){
+        medulla();
+        proceed = false;
+      }
+      else if(input.equals("6") == true){
+        corpus_Callosum();
+        proceed = false;
+      }
+      else if(input.equals("7") == true){
+        cerebellum();
+        proceed = false;
+      }
+      else if(input.equals("8") == true){
+        limbic_System();
+        proceed = false;
+      }
+      
+      else if(input.equals("9") == true){
+        thalamus();
+        proceed = false;
+      }
+      else if(input.equals("10") == true){
+        hypothalamus();
+        proceed = false;
+      }
+      else if(input.equals("11") == true){
+        amygdala();
+        proceed = false;
+      }
+      else if(input.equals("12") == true){
+        hippocampus();
+        proceed = false;
+      }
+      else if(input.equals("13") == true){
+        reticular_Formation();
+        proceed = false;
+      }
+      else if(input.equals("14") == true){
+        wernickes_Area();
+        proceed = false;
+      }
+      else if(input.equals("15") == true){
+        brocas_Area();
+        proceed = false;
+      }
+      else{
+        System.out.println("sorry that was not one of the options \n try again\n");
+        input = inScanner.nextLine();
+      }
+    }
 
     // Take action or go to another zone based on their choice
     // ADD CODE HERE
@@ -1038,8 +1468,94 @@ public class brainProject
     // describe the area/situation to the user. 
     // Give them options for choices.
     // ADD CODE HERE
-    System.out.println("you have collected 10 gold pieces and hoped you had gotten more.\n but maybe it was the friends we did not make on the way that was the not real treasure");
-    gameEnd();
+    System.out.println("The Wernicke's Area\n");
+    System.out.println("Controls the ability to understand the meaning of words, in conjunction with the motor cortex, controls the ability to speak those words.");
+    System.out.println("please type in the number corresponding with the part of the brain.");
+    System.out.println("1. Parietal Lobe");
+    System.out.println("2. Frontal Lobe");
+    System.out.println("3. Occipital Lobe");
+    System.out.println("4. Temporal Lobe");
+    System.out.println("5. Medulla");
+    System.out.println("6. Corpus Callosum");
+    System.out.println("7. Cerebellum");
+    System.out.println("8. Limbic System");
+    System.out.println("9. Thalamus");
+    System.out.println("10. Hypothalamus");
+    System.out.println("11. Amygdala");
+    System.out.println("12. Hippocampus");
+    System.out.println("13. Reticular Formation/Reticular Activating System");
+    System.out.println("14. Wenicke's Area");
+    System.out.println("15. Broca's Area\n");
+    input = inScanner.nextLine();
+    // Take action or go to another zone based on their choice
+    // ADD CODE HERE
+    while(proceed != false){
+      if(input.equals("1") == true){ 
+        parietal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("2") == true){
+        frontal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("3") == true){
+        occipital_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("4") == true){
+        temporal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("5") == true){
+        medulla();
+        proceed = false;
+      }
+      else if(input.equals("6") == true){
+        corpus_Callosum();
+        proceed = false;
+      }
+      else if(input.equals("7") == true){
+        cerebellum();
+        proceed = false;
+      }
+      else if(input.equals("8") == true){
+        limbic_System();
+        proceed = false;
+      }
+      
+      else if(input.equals("9") == true){
+        thalamus();
+        proceed = false;
+      }
+      else if(input.equals("10") == true){
+        hypothalamus();
+        proceed = false;
+      }
+      else if(input.equals("11") == true){
+        amygdala();
+        proceed = false;
+      }
+      else if(input.equals("12") == true){
+        hippocampus();
+        proceed = false;
+      }
+      else if(input.equals("13") == true){
+        reticular_Formation();
+        proceed = false;
+      }
+      else if(input.equals("14") == true){
+        wernickes_Area();
+        proceed = false;
+      }
+      else if(input.equals("15") == true){
+        brocas_Area();
+        proceed = false;
+      }
+      else{
+        System.out.println("sorry that was not one of the options \n try again\n");
+        input = inScanner.nextLine();
+      }
+    }
 
     // Take action or go to another zone based on their choice
     // ADD CODE HERE
@@ -1050,7 +1566,6 @@ public class brainProject
   {
     String input;
     boolean proceed = true;
-    int dragonHealth = 4;
     // change image
     // ADD CODE HERE
     //console.setImage("");
@@ -1058,32 +1573,98 @@ public class brainProject
     // describe the area/situation to the user. 
     // Give them options for choices.
     // ADD CODE HERE
-    System.out.println("The dragon has awakened and sees you as a threat.\n battle it for the treasure.\n type roll for damage");
+    System.out.println("The Broca's Area\n");
+    System.out.println("Is a key component of a complex speech network, interacting with the flow of sensory information from the temporal cortex, devising plans for speaking and passing plans along.");
+    System.out.println("please type in the number corresponding with the part of the brain.");
+    System.out.println("1. Parietal Lobe");
+    System.out.println("2. Frontal Lobe");
+    System.out.println("3. Occipital Lobe");
+    System.out.println("4. Temporal Lobe");
+    System.out.println("5. Medulla");
+    System.out.println("6. Corpus Callosum");
+    System.out.println("7. Cerebellum");
+    System.out.println("8. Limbic System");
+    System.out.println("9. Thalamus");
+    System.out.println("10. Hypothalamus");
+    System.out.println("11. Amygdala");
+    System.out.println("12. Hippocampus");
+    System.out.println("13. Reticular Formation/Reticular Activating System");
+    System.out.println("14. Wenicke's Area");
+    System.out.println("15. Broca's Area\n");
     input = inScanner.nextLine();
-    if(input.equals("roll") == true){
-      int damage = (int) (Math.random() * 10);
-      dragonHealth = dragonHealth - damage;
-    }  
-    if(dragonHealth <= 0 || input.equals("gtfo") == true){
-      System.out.print("the dragon gives up and decides to let you have the gold\n");
-      gameEnd();
-    }
-    else{
-      System.out.println("you failed to defeat the dragon and died");
-      gameEnd();
+    // Take action or go to another zone based on their choice
+    // ADD CODE HERE
+    while(proceed != false){
+      if(input.equals("1") == true){ 
+        parietal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("2") == true){
+        frontal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("3") == true){
+        occipital_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("4") == true){
+        temporal_Lobe();
+        proceed = false;
+      }
+      else if(input.equals("5") == true){
+        medulla();
+        proceed = false;
+      }
+      else if(input.equals("6") == true){
+        corpus_Callosum();
+        proceed = false;
+      }
+      else if(input.equals("7") == true){
+        cerebellum();
+        proceed = false;
+      }
+      else if(input.equals("8") == true){
+        limbic_System();
+        proceed = false;
+      }
+      
+      else if(input.equals("9") == true){
+        thalamus();
+        proceed = false;
+      }
+      else if(input.equals("10") == true){
+        hypothalamus();
+        proceed = false;
+      }
+      else if(input.equals("11") == true){
+        amygdala();
+        proceed = false;
+      }
+      else if(input.equals("12") == true){
+        hippocampus();
+        proceed = false;
+      }
+      else if(input.equals("13") == true){
+        reticular_Formation();
+        proceed = false;
+      }
+      else if(input.equals("14") == true){
+        wernickes_Area();
+        proceed = false;
+      }
+      else if(input.equals("15") == true){
+        brocas_Area();
+        proceed = false;
+      }
+      else{
+        System.out.println("sorry that was not one of the options \n try again\n");
+        input = inScanner.nextLine();
+      }
     }
 
 
     // Take action or go to another zone based on their choice
     // ADD CODE HERE
     
-  }
-
-  private void gameEnd()
-  {
-    // ADD CODE HERE
-    //console.setImage("");
-    System.out.println("Thank you for playing");
-    inScanner.close();
   }
 }
