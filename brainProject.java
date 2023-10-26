@@ -21,6 +21,7 @@ public class brainProject
     //console.setImage("");
 
     // ask the user to input the brain part
+    System.out.println("by Hayden Aiello and Seamus Doherty");
     System.out.println("this is the brain. it helps us function and is helpful with our psychological needs. \n please type in the number corresponding with the part of the brain.");
     System.out.println("1. Parietal Lobe");
     System.out.println("2. Frontal Lobe");
