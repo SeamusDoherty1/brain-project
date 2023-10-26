@@ -122,8 +122,7 @@ public class brainProject
     // Give them options for choices.
     // ADD CODE HERE
     System.out.println("The Parietal Lobe\n");
-    System.out.println("A part of the brain necessary for the collection of sensory information, such as sound, smell, touch, and taste, which interprets and assembles these inputs. ");
-    System.out.println("it can be affected by Agraphia (inability to write), Acalculia(inability to do math), Alexia(inability to read).");
+    System.out.println("A part of the brain necessary for the collection of sensory information, such as sound, smell, touch, and taste, which interprets and assembles these inputs.\n it can be affected by Agraphia (inability to write), Acalculia(inability to do math), Alexia(inability to read).");
     System.out.println("please type in the number corresponding with the part of the brain.");
     System.out.println("1. Parietal Lobe");
     System.out.println("2. Frontal Lobe");
@@ -225,8 +224,7 @@ public class brainProject
     // Give them options for choices.
     // ADD CODE HERE
     System.out.println("The Frontal Lobe\n");
-    System.out.println("Located in the front of the brain, the frontal lobe is a vital part of the brain's structure that is responsible for one's thoughts, movements and memory, as well as other social processes such as speech.");
-    System.out.println("It can be affected by dementia(impaired ability to think), strokes(occurring when something blocks the blood supply), or brain tumors(a growth of cells in the brain).");
+    System.out.println("Located in the front of the brain, the frontal lobe is a vital part of the brain's structure that is responsible for one's thoughts, movements and memory, as well as other social processes such as speech. \n It can be affected by dementia(impaired ability to think), strokes(occurring when something blocks the blood supply), or brain tumors(a growth of cells in the brain).");
     System.out.println("please type in the number corresponding with the part of the brain.");
     System.out.println("1. Parietal Lobe");
     System.out.println("2. Frontal Lobe");
@@ -328,7 +326,7 @@ public class brainProject
     // Give them options for choices.
     // ADD CODE HERE
     System.out.println("The Occipital Lobe\n");
-    System.out.println("A part of the brain located in its rear. This part is particularly important for functions related to sight, and damage of the lobe can result in blindness");
+    System.out.println("A part of the brain located in its rear. This part is particularly important for functions related to sight, and damage of the lobe can result in blindness\n It can be affected by trauma, tumors, and autoimmune diseases.");
     System.out.println("please type in the number corresponding with the part of the brain.");
     System.out.println("1. Parietal Lobe");
     System.out.println("2. Frontal Lobe");
