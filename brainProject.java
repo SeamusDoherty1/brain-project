@@ -115,7 +115,7 @@ public class brainProject
     String input;
     boolean proceed = true;
     // change image
-    //console.setImage("");
+    console.setImage("parietal_Lobe.jpg");
     // ADD CODE HERE
 
     // describe the area/situation to the user. 
@@ -218,7 +218,7 @@ public class brainProject
     boolean proceed = true;
     // change image
     // ADD CODE HERE
-    //console.setImage("");
+    console.setImage("frontal_Lobe.jpg");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
@@ -320,7 +320,7 @@ public class brainProject
     boolean proceed = true;
     // change image
     // ADD CODE HERE
-    //console.setImage("");
+    console.setImage("occipital_Lobe.jpg");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
@@ -425,7 +425,7 @@ public class brainProject
     boolean proceed = true;
     // change image
     // ADD CODE HERE
-    //console.setImage("");
+    console.setImage("temporal_Lobe.jpg");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
@@ -527,7 +527,7 @@ public class brainProject
     String input;
     // change image
     // ADD CODE HERE
-    //console.setImage("");
+    console.setImage("Medulla.jpg");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
@@ -631,7 +631,7 @@ public class brainProject
     String input;
     // change image
     // ADD CODE HERE
-    //console.setImage("");
+    console.setImage("corpus_Callosum.jpg");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
@@ -735,7 +735,7 @@ public class brainProject
     String input;
     // change image
     // ADD CODE HERE
-    //console.setImage("");
+    console.setImage("Cerebellum.jpg");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
@@ -839,7 +839,7 @@ public class brainProject
     String input;
     // change image
     // ADD CODE HERE
-    //console.setImage("");
+    console.setImage("limbic_System.jpg");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
@@ -943,7 +943,7 @@ public class brainProject
     String input;
     // change image
     // ADD CODE HERE
-    //console.setImage("");
+    console.setImage("Thalamus.jpg");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
@@ -1047,7 +1047,7 @@ public class brainProject
     String input;
     // change image
     // ADD CODE HERE
-    //console.setImage("");
+    console.setImage("hypothalamus.jpg");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
@@ -1151,7 +1151,7 @@ public class brainProject
     String input;
     // change image
     // ADD CODE HERE
-    //console.setImage("");
+    console.setImage("Amygdala.jpg");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
@@ -1255,7 +1255,7 @@ public class brainProject
     String input;
     // change image
     // ADD CODE HERE
-    //console.setImage("");
+    console.setImage("hippocampus.jpg");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
@@ -1359,12 +1359,12 @@ public class brainProject
     String input;
     // change image
     // ADD CODE HERE
-    //console.setImage("");
+    console.setImage("reticular_Formation.jpg");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
     // ADD CODE HERE
-    System.out.println("The Reticular Formation / Reticular Activating System\n");
+    System.out.println("The Reticular Formation\n");
     System.out.println("This part is a brainstem that subserves autonomic, motor, sensory, behavioral, cognitive, and mood-related functions.");
     System.out.println("please type in the number corresponding with the part of the brain.");
     System.out.println("1. Parietal Lobe");
@@ -1463,13 +1463,13 @@ public class brainProject
     String input;
     // change image
     // ADD CODE HERE
-    //console.setImage("");
+    console.setImage("wernickes_Area.jpg");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
     // ADD CODE HERE
-    System.out.println("The Wernicke's Area\n");
-    System.out.println("Controls the ability to understand the meaning of words, in conjunction with the motor cortex, controls the ability to speak those words.");
+    System.out.println("Wernicke's Area\n");
+    System.out.println("A spherical structure in the middle of the brain which communicates motor movement with the body.");
     System.out.println("please type in the number corresponding with the part of the brain.");
     System.out.println("1. Parietal Lobe");
     System.out.println("2. Frontal Lobe");
@@ -1568,13 +1568,13 @@ public class brainProject
     boolean proceed = true;
     // change image
     // ADD CODE HERE
-    //console.setImage("");
+    console.setImage("brocas_Area.jpg");
 
     // describe the area/situation to the user. 
     // Give them options for choices.
     // ADD CODE HERE
-    System.out.println("The Broca's Area\n");
-    System.out.println("Is a key component of a complex speech network, interacting with the flow of sensory information from the temporal cortex, devising plans for speaking and passing plans along.");
+    System.out.println("Broca's Area\n");
+    System.out.println("A spherical structure in the middle of the brain which communicates motor movement with the body.");
     System.out.println("please type in the number corresponding with the part of the brain.");
     System.out.println("1. Parietal Lobe");
     System.out.println("2. Frontal Lobe");
@@ -1666,5 +1666,13 @@ public class brainProject
     // Take action or go to another zone based on their choice
     // ADD CODE HERE
     
+  }
+
+  private void gameEnd()
+  {
+    // ADD CODE HERE
+    //console.setImage("");
+    System.out.println("Thank you for playing");
+    inScanner.close();
   }
 }
